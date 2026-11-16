@@ -25,6 +25,16 @@ An end-to-end exploratory data analysis and Power BI visualization of **64,000+ 
 * **Geographic Insights:** Assess state- and region-level demand alongside localized cost structures and profit margins.
 
 ---
+## 🔍 Key Analytical Findings
+
+### 1. Sales Revenue & Seasonality (2014–2018)
+<img width="989" height="602" alt="Screenshot 2026-11-13 085808" src="https://github.com/user-attachments/assets/f86bc31f-49cf-4a68-90d3-2b5afc899166" />
+
+* **Consistent Baseline:** Monthly revenues oscillate steadily within a healthy **$22M–$26M** band across the four-year timeline, demonstrating predictable cyclical waves rather than random volatility.
+* **Peak & Trough Anomalies:** Performance peaked in **March 2016 ($26M)**, whereas the sharpest downturn occurred in **February 2017 ($21M floor)**—followed immediately by an aggressive rebound back to **$26M in March 2017**, highlighting strong operational resilience.
+* **Seasonal Cycles:** Revenue reliably dips every **January** (post-holiday cooldown) and surges during **May and June**.
+
+---
 
 ## 🗂️ Data Structure & Modeling
 
@@ -32,23 +42,21 @@ The Power BI data model follows a star-schema architecture comprising **5 relati
 * **Fact Table:** `Sales Data` (64,000 rows)
 * **Dimension Tables:** `Product`, `Customer`, `Region`, `State`
 
-*(Tip: Replace this line with a screenshot of your Power BI Model View / ERD once uploaded)*
+<img width="859" height="489" alt="Screenshot 2026-11-13 085251" src="https://github.com/user-attachments/assets/6601ef1a-248e-439b-ba8a-08f7814c581f" />
 
 ---
 
-## 🔍 Key Analytical Findings
-
-### 1. Sales Revenue & Seasonality (2014–2018)
-* **Consistent Baseline:** Monthly revenues oscillate steadily within a healthy **$22M–$26M** band across the four-year timeline, demonstrating predictable cyclical waves rather than random volatility.
-* **Peak & Trough Anomalies:** Performance peaked in **March 2016 ($26M)**, whereas the sharpest downturn occurred in **February 2017 ($21M floor)**—followed immediately by an aggressive rebound back to **$26M in March 2017**, highlighting strong operational resilience.
-* **Seasonal Cycles:** Revenue reliably dips every **January** (post-holiday cooldown) and surges during **May and June**.
-
 ### 2. Product Performance (Volume vs. Margin)
+<img width="324" height="263" alt="Screenshot 2026-11-13 092104" src="https://github.com/user-attachments/assets/1cb62a70-a49a-4aad-8596-f268feaa29a8" />
+<img width="317" height="259" alt="Screenshot 2026-11-13 092026" src="https://github.com/user-attachments/assets/b218a0f7-1117-4bc7-9405-4447543ec493" />
+
 * **Top Revenue Driver:** **Product 25** leads overall top-line performance, consistently generating **$117.3M** year-over-year.
 * **Margin Leaders:** While Product 25 drives scale, **Product 9 (40.03%)**, **Product 30 (39.05%)**, and **Product 28 (38.94%)** deliver the highest profit margin efficiency.
 * **Underperformer:** **Product 3** generates the lowest revenue across the catalog and requires portfolio review.
 
 ### 3. Channel Dominance & Efficiency
+<img width="957" height="197" alt="Screenshot 2026-11-13 092233" src="https://github.com/user-attachments/assets/29bf9001-7648-492f-9169-3e931e5cb77d" />
+
 * **Wholesale Backbone:** **Wholesale** is the primary engine of the business, commanding **54.06% of total revenue ($668.20M)** and **53.56% of total profit ($247.30M)**.
 * **Consistent Route Efficiency:** Profit margins remain tightly balanced across all channels—**Wholesale (38.01%)**, **Distributor (37.65%)**, and **Export (37.02%)**—proving that operational cost structures scale predictably with volume.
 
@@ -74,4 +82,10 @@ The Power BI data model follows a star-schema architecture comprising **5 relati
 ---
 
 ## 📸 Dashboard Preview
-*(Once you commit this README, you can drag and drop screenshots of your Power BI dashboard pages here!)*
+
+<img width="997" height="561" alt="executive" src="https://github.com/user-attachments/assets/bb83310a-aa22-4e51-9a3d-770e25f68238" />
+<img width="998" height="563" alt="product main" src="https://github.com/user-attachments/assets/67c98feb-3be8-42c0-b12c-d800b7960610" />
+<img width="994" height="562" alt="geo" src="https://github.com/user-attachments/assets/16c569ff-da4a-41ba-95d5-a1cf72990c5b" />
+
+
+
