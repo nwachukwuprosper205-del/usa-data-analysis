@@ -8,7 +8,7 @@ An end-to-end exploratory data analysis and Power BI visualization of **64,000+ 
 
 | Metric | Performance |
 | :--- | :--- |
-| **Total Revenue** | $1.20B |
+| **Total Revenue** | $1.24B |
 | **Total Profit** | $461.80M |
 | **Overall Profit Margin** | 37.36% |
 | **Total Orders** | 64,000 |
@@ -50,7 +50,7 @@ The Power BI data model follows a star-schema architecture comprising **5 relati
 <img width="324" height="263" alt="Screenshot 2026-11-13 092104" src="https://github.com/user-attachments/assets/1cb62a70-a49a-4aad-8596-f268feaa29a8" />
 <img width="317" height="259" alt="Screenshot 2026-11-13 092026" src="https://github.com/user-attachments/assets/b218a0f7-1117-4bc7-9405-4447543ec493" />
 
-* **Top Revenue Driver:** **Product 25** leads overall top-line performance, consistently generating **$117.3M** year-over-year.
+* **Top Revenue Driver:** **Product 26** leads overall top-line performance, consistently generating **$117.3M** year-over-year.
 * **Margin Leaders:** While Product 25 drives scale, **Product 9 (40.03%)**, **Product 30 (39.05%)**, and **Product 28 (38.94%)** deliver the highest profit margin efficiency.
 * **Underperformer:** **Product 3** generates the lowest revenue across the catalog and requires portfolio review.
 
