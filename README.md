@@ -61,6 +61,8 @@ The Power BI data model follows a star-schema architecture comprising **5 relati
 * **Consistent Route Efficiency:** Profit margins remain tightly balanced across all channels—**Wholesale (38.01%)**, **Distributor (37.65%)**, and **Export (37.02%)**—proving that operational cost structures scale predictably with volume.
 
 ### 4. Geographic & Account Insights
+<img width="985" height="589" alt="MAP" src="https://github.com/user-attachments/assets/31d2679c-8f6e-4564-836b-ec55a65d38be" />
+
 * **Top 5 States by Revenue:** **California ($228.79M)** dominates national sales—more than doubling runner-up **Illinois ($111.05M)**, followed by **Florida ($90.20M)**, **Texas ($84.01M)**, and **New York ($55.53M)**.
 * **Regional Revenue vs. Margin Twist:** While the **Midwest** and **West** command massive scale, regional profit margins vary noticeably (ranging from **27% to 46%**), indicating localized logistics and fulfillment cost disparities.
 
