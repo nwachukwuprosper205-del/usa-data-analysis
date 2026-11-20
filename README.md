@@ -80,6 +80,29 @@ The Power BI data model follows a star-schema architecture comprising **5 relati
 * **Data Cleaning & ETL:** Power Query.
 
 ---
+## 🧮 Key DAX Measures
+```dax
+// Total Revenue
+total revenue = SUM(Sales_data[revenue])
+
+// Total Profit
+total profit = SUM(Sales_data[profit])
+
+// Profit Margin %
+Profit Margin % = DIVIDE([total profit], [total revenue])
+
+// Total Orders
+total orders = COUNT(Sales_data[order_number])
+
+// Average Order Value (AOV)
+average order = 
+DIVIDE(
+    [total revenue],
+    [total orders],
+    0
+)
+```
+---
 
 ## 📸 Dashboard Preview
 
